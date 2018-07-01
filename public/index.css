@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+
+}
+
+.attract-image {
+	width: 100vw;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.attract-wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.button-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.hidden-button {
+	opacity: 0;
+	border: 0;
+	background: transparent;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default !important;
+}
