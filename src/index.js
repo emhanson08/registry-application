@@ -1,3 +1,7 @@
+require("jquery")
+require("popper.js")
+require("bootstrap")
+
 import UrlHelper from './url_helper.js';
 import AttractLoop from './attract_loop.js';
 
