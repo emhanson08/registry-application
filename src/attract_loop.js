@@ -14,11 +14,18 @@ export default class AttractLoop {
 	}
 
 	init(){
-		var clickMe = '.click-me';
 		var attractWrapper = '.attract-wrapper';
 
-		document.querySelector(clickMe).addEventListener('click', function(){
+		document.querySelector('.click-me').addEventListener('click', function(){
 			document.querySelector(attractWrapper).style.display = 'none'
+		});
+
+		document.querySelector('.hidden-button').addEventListener('click', function(){
+			document.querySelector(attractWrapper).style.display = 'none'
+		});
+
+		document.querySelector('#url-submit-button').addEventListener('click', function(){
+			document.querySelector(attractWrapper).style.display = 'block'
 		});
 
 
