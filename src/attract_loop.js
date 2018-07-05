@@ -28,7 +28,6 @@ export default class AttractLoop {
 			document.querySelector(attractWrapper).style.display = 'block'
 		});
 
-
 		document.querySelectorAll('.close-the-modal').forEach(function(button){
 			button.addEventListener('click', function(){
 				document.querySelector(attractWrapper).style.display = 'block'
